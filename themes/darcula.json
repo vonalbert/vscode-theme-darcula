@@ -2,17 +2,16 @@
   "type": "dark",
   "colors": {
     "editor.background": "#242424",
-    "editor.foreground": "#cccccc",
+    "editor.foreground": "#a9b7c6",
     "editor.selectionBackground": "#204182cc",
     "editor.lineHighlightBackground": "#ffffff0b",
-    "editor.activeLineNumber.foreground": "#cccccc",
     "editorGutter.background": "#ffffff0b",
     "titleBar.activeBackground": "#ffffff1a",
     "titleBar.inactiveBackground": "#ffffff10",
-    "titleBar.activeForeground": "#cccccc",
+    "titleBar.activeForeground": "#a9b7c6",
     "sideBar.border": "#ffffff1a",
     "sideBar.background": "#242424",
-    "statusBar.foreground": "#cccccc",
+    "statusBar.foreground": "#a9b7c6",
     "statusBar.background": "#ffffff1a",
     "tab.activeBackground": "#ffffff1a",
     "tab.inactiveBackground": "#ffffff0b",
@@ -36,7 +35,7 @@
       "name": "Operator Keywords",
       "scope": "keyword.operator,keyword.operator.logical,keyword.operator.relational,keyword.operator.assignment,keyword.operator.comparison,keyword.operator.ternary,keyword.operator.arithmetic,keyword.operator.spread",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -55,9 +54,15 @@
     },
     {
       "name": "String Interpolation Body",
-      "scope": "expression.string,meta.template.expression",
+      "scope": [
+        "expression.string",
+        "meta.template.expression",
+        "string.quoted.double.php punctuation.definition.variable.php",
+        "string.unquoted.heredoc.php punctuation.definition.string.php",
+        "string.unquoted.heredoc.php punctuation.definition.variable.php"
+      ],
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -78,7 +83,8 @@
       "name": "User-defined constant",
       "scope": "constant.character, constant.other",
       "settings": {
-        "foreground": "#9E7BB0"
+        "foreground": "#9E7BB0",
+        "fontStyle": " italic"
       }
     },
     {
@@ -120,19 +126,30 @@
       "name": "Function Types",
       "scope": "annotation.meta.ts, annotation.meta.tsx",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Function Argument",
       "scope": "variable.parameter, operator.rest.parameters",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Variable, Property",
-      "scope": "variable.property,variable.other.property,variable.other.object.property,variable.object.property,support.variable.property",
+      "scope": [
+        "variable.property",
+        "variable.other.property",
+        "variable.other.object.property",
+        "variable.object.property",
+        "support.variable.property",
+        "variable.other.php",
+        "variable.other.property.php",
+        "variable.language.this.php",
+        "string.quoted.double.php variable.other.php punctuation.definition.variable.php",
+        "string.unquoted.heredoc.php variable.other.php punctuation.definition.variable.php"
+      ],
       "settings": {
         "foreground": "#9E7BB0"
       }
@@ -162,7 +179,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -218,14 +235,14 @@
       "name": "Import-Export-All (*) Keyword",
       "scope": "constant.language.import-export-all",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Object Key Seperator",
       "scope": "objectliteral.key.separator, punctuation.separator.key-value",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -239,21 +256,21 @@
       "name": "Typescript Namespace",
       "scope": "ts.meta.entity.name.namespace,tsx.meta.entity.name.namespace",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Regex Character-class",
       "scope": "regex.character-class",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Class Name",
       "scope": "entity.name.type.class",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -281,14 +298,14 @@
       "name": "YAML string value",
       "scope": "yaml.string.out",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Ignored (Exceptions Rules)",
       "scope": "meta.brace.square.ts,block.support.module,block.support.type.module,block.support.function.variable,punctuation.definition.typeparameters.begin,punctuation.definition.typeparameters.end",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -309,14 +326,14 @@
       "name": "Regex Character Class",
       "scope": "constant.other.character-class.regexp, constant.character.escape.ts",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Regex Or Operator",
       "scope": "expr.regex.or.operator",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -330,14 +347,14 @@
       "name": "Tag function parenthesis",
       "scope": "tag.punctuation.begin.arrow.parameters.embedded,tag.punctuation.end.arrow.parameters.embedded",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
       "name": "Object-literal key class",
       "scope": "object-literal.object.member.key.field.other,object-literal.object.member.key.accessor,object-literal.object.member.key.array.brace.square",
       "settings": {
-        "foreground": "#CCCCCC"
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -407,7 +424,7 @@
       "name": "Triple-slash Directive Tag",
       "scope": "triple-slash.tag",
       "settings": {
-        "foreground": "#CCCCCC",
+        "foreground": "#a9b7c6",
         "fontStyle": "italic"
       }
     },
@@ -465,16 +482,45 @@
     },
     {
       "name": "PHP variables",
-      "scope": ["variable.other.property.php"],
+      "scope": ["support.variable.property.php"],
+      "settings": {
+        "foreground": "#FFC66D"
+      }
+    },
+    {
+      "name": "Attributes",
+      "scope": ["meta.attribute.php"],
+      "settings": {
+        "foreground": "#bbb529"
+      }
+    },
+    {
+      "name": "Attributes > parenthesis",
+      "scope": [
+        "meta.attribute.php punctuation.definition.arguments.begin.bracket.round.php",
+        "meta.attribute.php punctuation.definition.arguments.end.bracket.round.php",
+        "meta.attribute.php punctuation.section.array.begin.php",
+        "meta.attribute.php punctuation.section.array.end.php"
+      ],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
+      "name": "Attributes > parameter separator",
+      "scope": ["meta.attribute.php punctuation.separator.delimiter.php"],
       "settings": {
         "foreground": "#CC8242"
       }
     },
     {
-      "name": "PHP variables",
-      "scope": ["support.variable.property.php"],
+      "name": "Named arguments",
+      "scope": [
+        "entity.name.variable.parameter.php",
+        "meta.attribute.php punctuation.separator.colon.php"
+      ],
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#467cda"
       }
     }
   ]
