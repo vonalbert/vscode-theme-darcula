@@ -599,6 +599,20 @@
       "settings": {
         "foreground": "#467cda"
       }
+    },
+    {
+      "name": "Twig",
+      "scope": [
+        "punctuation.separator.property.twig",
+        "punctuation.section.tag.twig",
+        "variable.other.twig",
+        "variable.other.property.twig",
+        "support.function.twig",
+        "meta.tag.template.value.twig"
+      ],
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
     }
   ]
 }
