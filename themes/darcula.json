@@ -617,6 +617,16 @@
       "settings": {
         "foreground": "#a9b7c6"
       }
+    },
+    {
+      "name": "Twig operators",
+      "scope": [
+        "keyword.operator.logical.twig",
+        "keyword.operator.comparison.twig"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
+      }
     }
   ]
 }
