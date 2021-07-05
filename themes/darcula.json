@@ -207,6 +207,17 @@
       }
     },
     {
+      "name": "Tag attribute = symbol",
+      "scope": [
+        "JSXAttrs keyword.operator.assignment",
+        "text.html.twig meta.tag.block.any.html",
+        "text.html.twig meta.tag.inline.any.html"
+      ],
+      "settings": {
+        "foreground": "#6A8759"
+      }
+    },
+    {
       "name": "Object Keys",
       "scope": [
         "meta.object-literal.key",
