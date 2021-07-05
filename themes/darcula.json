@@ -173,13 +173,6 @@
       }
     },
     {
-      "name": "JS Variable",
-      "scope": ["variable.other.property.js"],
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
       "name": "Module Name",
       "scope": "quote.module",
       "settings": {
@@ -210,7 +203,7 @@
       "name": "Tag attribute",
       "scope": "entity.other.attribute-name",
       "settings": {
-        "foreground": "#a9b7c6"
+        "foreground": "#bababa"
       }
     },
     {
