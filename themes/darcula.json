@@ -514,7 +514,6 @@
       "scope": [
         "variable.language.php",
         "variable.other.php",
-        "variable.other.php",
         "variable.other.property.php",
         "variable.language.this.php",
         "string.quoted.double.php variable.other.php punctuation.definition.variable.php",

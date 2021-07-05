@@ -3,7 +3,7 @@
   "displayName": "Darcula Storm",
   "description": "A theme extension for VS Code based on PHPStorm's Darcula theme",
   "version": "1.0.0",
-  "publisher": "vonalbert",
+  "publisher": "Vonalbert",
   "scripts": {
     "publish": "vsce publish"
   },
