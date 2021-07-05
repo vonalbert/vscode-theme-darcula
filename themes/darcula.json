@@ -322,17 +322,10 @@
       }
     },
     {
-      "name": "Class Name",
-      "scope": "entity.name.type.class",
+      "name": "Class Name && inheritance",
+      "scope": ["entity.name.type.class", "entity.other.inherited-class"],
       "settings": {
         "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "Class Inheritances",
-      "scope": "entity.other.inherited-class",
-      "settings": {
-        "foreground": "#7A9EC2"
       }
     },
     {
