@@ -57,14 +57,14 @@
       "name": "String Interpolation Begin and End",
       "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
       "name": "Escaped sequences",
       "scope": "constant.character.escape.php",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -99,7 +99,7 @@
       "name": "Built-in constant",
       "scope": "constant.language,variable.language",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -114,7 +114,7 @@
       "name": "Keyword",
       "scope": "keyword,keyword.operator.new,keyword.operator.delete,keyword.operator.static,keyword.operator.this,keyword.operator.expression",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -128,7 +128,7 @@
       "name": "Storage type",
       "scope": "storage,storage.type,storage.modifier,storage.arrow",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -190,7 +190,7 @@
       "name": "Markup Headings",
       "scope": "markup.heading",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -228,7 +228,7 @@
       "name": "TypeScript Class Modifiers",
       "scope": "storage.modifier.ts",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -263,7 +263,7 @@
       "name": "Documentation Highlight (JSDoc)",
       "scope": "storage.type.class.jsdoc",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -342,7 +342,7 @@
       "name": "YAML entity",
       "scope": "yaml.entity.name,yaml.string.entity.name",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -363,7 +363,7 @@
       "name": "Regex",
       "scope": "string.regexp",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -454,7 +454,7 @@
       "name": "CSS Tag",
       "scope": "css.entity.name.tag,scss.entity.name.tag",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -468,7 +468,7 @@
       "name": "CSS Keyword",
       "scope": "keyword.scss,keyword.css",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -507,14 +507,14 @@
       "name": "Python operators",
       "scope": "keyword.operator.logical.python",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
       "name": "Dart class type",
       "scope": "support.class.dart",
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -559,7 +559,7 @@
         "punctuation.section.embedded.end.php"
       ],
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -586,7 +586,7 @@
       "name": "Attributes > parameter separator",
       "scope": ["meta.attribute.php punctuation.separator.delimiter.php"],
       "settings": {
-        "foreground": "#CC8242"
+        "foreground": "#CC7832"
       }
     },
     {
