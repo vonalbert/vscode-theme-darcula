@@ -297,7 +297,7 @@
     },
     {
       "name": "Documentation Type (PHPDoc)",
-      "scope": ["meta.other.type.phpdoc.php"],
+      "scope": ["meta.other.type.phpdoc.php", "keyword.other.array.phpdoc.php"],
       "settings": {
         "foreground": "#a9b7c6",
         "fontStyle": ""
