@@ -6,6 +6,7 @@ Yet another Visual Studio Code theme based on Phpstorm's Darcula theme. This the
 ## Known issues
 - **as** keyword in foreach does not have accent style (see [94978](https://github.com/microsoft/vscode/issues/94978))
 - **__CLASS__** constant has accent style, but it cannot be removed from this one without removing from **false** and **true** constants
+- **void** return type has the wrong color
 
 
 ## Screenshot
