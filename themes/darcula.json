@@ -41,7 +41,16 @@
     },
     {
       "name": "Operator Keywords",
-      "scope": "keyword.operator,keyword.operator.logical,keyword.operator.relational,keyword.operator.assignment,keyword.operator.comparison,keyword.operator.ternary,keyword.operator.arithmetic,keyword.operator.spread",
+      "scope": [
+        "keyword.operator",
+        "keyword.operator.logical",
+        "keyword.operator.relational",
+        "keyword.operator.assignment",
+        "keyword.operator.comparison",
+        "keyword.operator.ternary",
+        "keyword.operator.arithmetic",
+        "keyword.operator.spread"
+      ],
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -97,7 +106,7 @@
     },
     {
       "name": "Built-in constant",
-      "scope": "constant.language,variable.language",
+      "scope": ["constant.language", "variable.language"],
       "settings": {
         "foreground": "#CC7832"
       }
