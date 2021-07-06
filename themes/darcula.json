@@ -150,6 +150,13 @@
       }
     },
     {
+      "name": "JS Arrow function's arrow",
+      "scope": "storage.type.function.arrow.js",
+      "settings": {
+        "foreground": "#a9b7c6"
+      }
+    },
+    {
       "name": "Class constructor",
       "scope": "class.instance.constructor,new.expr entity.name.type",
       "settings": {
