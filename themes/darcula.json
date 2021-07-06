@@ -143,8 +143,20 @@
       }
     },
     {
+      "name": "Expression terminator and param delimiters",
+      "scope": [
+        "punctuation.terminator.statement",
+        "punctuation.terminator.expression",
+        "punctuation.separator.delimiter",
+        "meta.delimiter.comma"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
       "name": "Storage type",
-      "scope": "storage,storage.type,storage.modifier,storage.arrow",
+      "scope": ["storage", "storage.type", "storage.modifier", "storage.arrow"],
       "settings": {
         "foreground": "#CC7832"
       }
@@ -157,15 +169,13 @@
       }
     },
     {
-      "name": "Class constructor",
-      "scope": "class.instance.constructor,new.expr entity.name.type",
-      "settings": {
-        "foreground": "#FFC66D"
-      }
-    },
-    {
-      "name": "Function",
-      "scope": "support.function, entity.name.function",
+      "name": "Function names",
+      "scope": [
+        "class.instance.constructor",
+        "new.expr entity.name.type",
+        "support.function",
+        "entity.name.function"
+      ],
       "settings": {
         "foreground": "#FFC66D"
       }
