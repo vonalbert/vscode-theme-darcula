@@ -71,9 +71,10 @@
     },
     {
       "name": "Escaped sequences",
-      "scope": "constant.character.escape.php",
+      "scope": "constant.character.escape",
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#CC7832",
+        "fontStyle": ""
       }
     },
     {
