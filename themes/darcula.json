@@ -177,10 +177,13 @@
       "name": "Function names",
       "scope": [
         "class.instance.constructor",
-        "support.function.constructor.php",
+        "support.function.constructor",
         "new.expr entity.name.type",
         "support.function",
-        "entity.name.function"
+        "support.function.magic",
+        "entity.name.function",
+        "meta.method-call.php entity.name.function.php",
+        "meta.class.body.php meta.function.php entity.name.function.php"
       ],
       "settings": {
         "foreground": "#FFC66D"
@@ -188,7 +191,11 @@
     },
     {
       "name": "PHP Function names (excluding class methods)",
-      "scope": ["source.php support.function"],
+      "scope": [
+        "source.php support.function",
+        "meta.function.php entity.name.function.php",
+        "meta.function-call.php entity.name.function.php"
+      ],
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -371,7 +378,12 @@
     },
     {
       "name": "Class Name && inheritance",
-      "scope": ["entity.name.type.class", "entity.other.inherited-class"],
+      "scope": [
+        "entity.name.type.class",
+        "entity.name.type.interface",
+        "entity.name.type.trait.php",
+        "entity.other.inherited-class"
+      ],
       "settings": {
         "foreground": "#a9b7c6"
       }

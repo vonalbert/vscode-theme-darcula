@@ -2,7 +2,7 @@
   "name": "vscode-darcula-storm-theme",
   "displayName": "Darcula Storm",
   "description": "A theme extension for VS Code based on PHPStorm's Darcula theme",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publisher": "Vonalbert",
   "scripts": {
     "publish": "vsce publish"
