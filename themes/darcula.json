@@ -112,7 +112,15 @@
     },
     {
       "name": "Keyword",
-      "scope": "keyword,keyword.operator.new,keyword.operator.delete,keyword.operator.static,keyword.operator.this,keyword.operator.expression",
+      "scope": [
+        "keyword",
+        "keyword.operator.new",
+        "keyword.operator.delete",
+        "keyword.operator.static",
+        "keyword.operator.this",
+        "keyword.operator.type",
+        "keyword.operator.expression"
+      ],
       "settings": {
         "foreground": "#CC7832"
       }
