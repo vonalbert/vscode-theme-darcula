@@ -175,19 +175,15 @@
         "support.function.magic",
         "entity.name.function",
         "meta.method-call.php entity.name.function.php",
-        "meta.class.body.php meta.function.php entity.name.function.php"
+        "meta.function.php entity.name.function.php"
       ],
       "settings": {
         "foreground": "#FFC66D"
       }
     },
     {
-      "name": "White Function names (php non class methods + )",
-      "scope": [
-        "source.php support.function",
-        "meta.function.php entity.name.function.php",
-        "meta.function-call entity.name.function"
-      ],
+      "name": "JS functions",
+      "scope": ["meta.function-call entity.name.function"],
       "settings": {
         "foreground": "#a9b7c6"
       }
