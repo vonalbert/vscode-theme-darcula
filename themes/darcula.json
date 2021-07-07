@@ -194,9 +194,7 @@
     },
     {
       "name": "Function Types",
-      "scope": [
-        "meta.type.annotation"
-      ],
+      "scope": ["meta.type.annotation"],
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -223,10 +221,7 @@
     },
     {
       "name": "JS special objects",
-      "scope": [
-        "support.type.object.console",
-        "support.type.object.dom"
-      ],
+      "scope": ["support.type.object.console", "support.type.object.dom"],
       "settings": {
         "foreground": "#9E7BB0",
         "fontStyle": "bold"
@@ -368,22 +363,8 @@
       }
     },
     {
-      "name": "Regex",
-      "scope": "regex",
-      "settings": {
-        "fontStyle": " italic"
-      }
-    },
-    {
       "name": "Typescript Namespace",
       "scope": "ts.meta.entity.name.namespace,tsx.meta.entity.name.namespace",
-      "settings": {
-        "foreground": "#a9b7c6"
-      }
-    },
-    {
-      "name": "Regex Character-class",
-      "scope": "regex.character-class",
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -442,9 +423,7 @@
     },
     {
       "name": "Regex > Delimiters",
-      "scope": [
-        "string.regexp punctuation.definition.string"
-      ],
+      "scope": ["string.regexp punctuation.definition.string"],
       "settings": {
         "foreground": "#7A9EC2",
         "fontStyle": ""
@@ -470,6 +449,14 @@
       "settings": {
         "foreground": "#FFC66D",
         "fontStyle": ""
+      }
+    },
+    {
+      "name": "Regex > Escaped sequences",
+      "scope": ["string.regexp constant.character.escape"],
+      "settings": {
+        "foreground": "#CC7832",
+        "fontStyle": "bold"
       }
     },
     {
