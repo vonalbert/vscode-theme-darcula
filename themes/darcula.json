@@ -75,17 +75,17 @@
       "scope": [
         "expression.string",
         "meta.template.expression",
-        "string.quoted.double.php punctuation.definition.variable.php",
-        "string.unquoted.heredoc.php punctuation.definition.string.php",
-        "string.unquoted.heredoc.php punctuation.definition.variable.php",
-        "string.quoted.double.php punctuation.definition.arguments.begin.bracket.round.php",
-        "string.quoted.double.php punctuation.definition.arguments.end.bracket.round.php",
-        "string.unquoted.heredoc.php punctuation.definition.arguments.begin.bracket.round.php",
-        "string.unquoted.heredoc.php punctuation.definition.arguments.end.bracket.round.php",
-        "string.quoted.double.php punctuation.section.array.begin.bracket.round.php",
-        "string.quoted.double.php punctuation.section.array.end.bracket.round.php",
-        "string.unquoted.heredoc.php punctuation.section.array.begin.php",
-        "string.unquoted.heredoc.php punctuation.section.array.end.php",
+        "string.quoted.double punctuation.definition.variable.php",
+        "string.unquoted.heredoc punctuation.definition.string.php",
+        "string.unquoted.heredoc punctuation.definition.variable.php",
+        "string.quoted.double punctuation.definition.arguments.begin.bracket.round.php",
+        "string.quoted.double punctuation.definition.arguments.end.bracket.round.php",
+        "string.unquoted.heredoc punctuation.definition.arguments.begin.bracket.round.php",
+        "string.unquoted.heredoc punctuation.definition.arguments.end.bracket.round.php",
+        "string.quoted.double punctuation.section.array.begin.bracket.round.php",
+        "string.quoted.double punctuation.section.array.end.bracket.round.php",
+        "string.unquoted.heredoc punctuation.section.array.begin.php",
+        "string.unquoted.heredoc punctuation.section.array.end.php",
         "string.quoted.template.js variable.other.object.js",
         "string.quoted.template.js punctuation.quasi.element.begin.js",
         "string.quoted.template.js punctuation.quasi.element.end.js",
@@ -102,7 +102,8 @@
       "scope": [
         "constant.numeric",
         "constant.character.entity",
-        "constant.character.entity entity.name.tag.html"
+        "constant.character.entity entity.name.tag.html",
+        "constant.other.color.rgb-value"
       ],
       "settings": {
         "foreground": "#7A9EC2",
@@ -145,7 +146,8 @@
         "punctuation.terminator.statement",
         "punctuation.terminator.expression",
         "punctuation.separator.delimiter",
-        "meta.delimiter.comma"
+        "meta.delimiter.comma",
+        "punctuation.terminator.rule"
       ],
       "settings": {
         "foreground": "#CC7832"
@@ -183,7 +185,10 @@
     },
     {
       "name": "PHP language constructs (isset, empty, die, ...)",
-      "scope": ["support.function.construct.php"],
+      "scope": [
+        "support.function.construct.php",
+        "support.function.construct.output.php"
+      ],
       "settings": {
         "foreground": "#CC7832"
       }
@@ -488,10 +493,31 @@
       }
     },
     {
+      "name": "CSS Property-name",
+      "scope": [
+        "source.css support.type.property-name",
+        "source.css support.type.vendored.property-name"
+      ],
+      "settings": {
+        "foreground": "#BABABA"
+      }
+    },
+    {
       "name": "CSS Property-value",
-      "scope": "property-list.property-value,property-list.constant",
+      "scope": [
+        "property-list.property-value",
+        "property-list.constant",
+        "source.css keyword.other.unit"
+      ],
       "settings": {
         "foreground": "#A5C261"
+      }
+    },
+    {
+      "name": "CSS Percentage",
+      "scope": ["keyword.other.unit.percentage.css"],
+      "settings": {
+        "foreground": "#a9b7c6"
       }
     },
     {
@@ -502,17 +528,20 @@
       }
     },
     {
+      "name": "CSS Selector punctuation",
+      "scope": [
+        "source.css entity.other.attribute-name.class punctuation.definition.entity",
+        "source.css entity.other.attribute-name.pseudo-class punctuation.definition.entity"
+      ],
+      "settings": {
+        "foreground": "#BABABA"
+      }
+    },
+    {
       "name": "CSS Property entity",
       "scope": "entity.other.attribute-name.class.css,entity.other.attribute-name.class.scss,entity.other.attribute-name.parent-selector-suffix.css,entity.other.attribute-name.parent-selector-suffix.scss",
       "settings": {
         "foreground": "#FFC66D"
-      }
-    },
-    {
-      "name": "CSS Property-value",
-      "scope": "property-list.property-value.rgb-value, keyword.other.unit.css,keyword.other.unit.scss",
-      "settings": {
-        "foreground": "#7A9EC2"
       }
     },
     {
@@ -603,8 +632,8 @@
         "variable.other.php",
         "variable.other.property.php",
         "variable.language.this.php",
-        "string.quoted.double.php variable.other.php punctuation.definition.variable.php",
-        "string.unquoted.heredoc.php variable.other.php punctuation.definition.variable.php"
+        "string.quoted.double variable.other.php punctuation.definition.variable.php",
+        "string.unquoted.heredoc variable.other.php punctuation.definition.variable.php"
       ],
       "settings": {
         "foreground": "#9E7BB0"
