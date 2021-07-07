@@ -182,6 +182,13 @@
       }
     },
     {
+      "name": "PHP language constructs (isset, empty, die, ...)",
+      "scope": ["support.function.construct.php"],
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
       "name": "JS functions",
       "scope": ["meta.function-call entity.name.function"],
       "settings": {
