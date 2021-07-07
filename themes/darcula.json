@@ -63,13 +63,6 @@
       }
     },
     {
-      "name": "String Interpolation Begin and End",
-      "scope": "punctuation.definition.template-expression.begin,punctuation.definition.template-expression.end",
-      "settings": {
-        "foreground": "#CC7832"
-      }
-    },
-    {
       "name": "Escaped sequences",
       "scope": "constant.character.escape",
       "settings": {
@@ -92,7 +85,13 @@
         "string.quoted.double.php punctuation.section.array.begin.bracket.round.php",
         "string.quoted.double.php punctuation.section.array.end.bracket.round.php",
         "string.unquoted.heredoc.php punctuation.section.array.begin.php",
-        "string.unquoted.heredoc.php punctuation.section.array.end.php"
+        "string.unquoted.heredoc.php punctuation.section.array.end.php",
+        "string.quoted.template.js variable.other.object.js",
+        "string.quoted.template.js punctuation.quasi.element.begin.js",
+        "string.quoted.template.js punctuation.quasi.element.end.js",
+        "string.quoted.template.js entity.quasi.element.js meta.brace.round.js",
+        "string.quoted.template.js variable.other.constant.js",
+        "string.quoted.template.js variable.other.readwrite.js"
       ],
       "settings": {
         "foreground": "#a9b7c6"
@@ -141,13 +140,6 @@
       }
     },
     {
-      "name": "Types, Class Types",
-      "scope": "entity.name.type,meta.return.type,meta.type.annotation,meta.type.parameters,support.type.primitive",
-      "settings": {
-        "foreground": "#7A9EC2"
-      }
-    },
-    {
       "name": "Expression terminator and param delimiters",
       "scope": [
         "punctuation.terminator.statement",
@@ -168,7 +160,7 @@
     },
     {
       "name": "JS Arrow function's arrow",
-      "scope": "storage.type.function.arrow.js",
+      "scope": "storage.type.function.arrow",
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -190,11 +182,11 @@
       }
     },
     {
-      "name": "PHP Function names (excluding class methods)",
+      "name": "White Function names (php non class methods + )",
       "scope": [
         "source.php support.function",
         "meta.function.php entity.name.function.php",
-        "meta.function-call.php entity.name.function.php"
+        "meta.function-call entity.name.function"
       ],
       "settings": {
         "foreground": "#a9b7c6"
@@ -202,7 +194,9 @@
     },
     {
       "name": "Function Types",
-      "scope": "annotation.meta.ts, annotation.meta.tsx",
+      "scope": [
+        "meta.type.annotation"
+      ],
       "settings": {
         "foreground": "#a9b7c6"
       }
@@ -225,6 +219,17 @@
       ],
       "settings": {
         "foreground": "#9E7BB0"
+      }
+    },
+    {
+      "name": "JS special objects",
+      "scope": [
+        "support.type.object.console",
+        "support.type.object.dom"
+      ],
+      "settings": {
+        "foreground": "#9E7BB0",
+        "fontStyle": "bold"
       }
     },
     {
@@ -280,6 +285,13 @@
       ],
       "settings": {
         "foreground": "#9E7BB0",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "Object Keys (quoted)",
+      "scope": ["constant.other.object.key.js string.quoted.double.js"],
+      "settings": {
         "fontStyle": ""
       }
     },
@@ -418,30 +430,46 @@
     },
     {
       "name": "Regex",
-      "scope": "string.regexp",
+      "scope": [
+        "string.regexp",
+        "string.regexp constant.character",
+        "string.regexp constant.other"
+      ],
       "settings": {
-        "foreground": "#CC7832"
+        "foreground": "#6A8759",
+        "fontStyle": ""
       }
     },
     {
-      "name": "Regex Group/Set",
-      "scope": "punctuation.definition.group.regexp,punctuation.definition.character-class.regexp",
+      "name": "Regex > Delimiters",
+      "scope": [
+        "string.regexp punctuation.definition.string"
+      ],
       "settings": {
-        "foreground": "#FFC66D"
+        "foreground": "#7A9EC2",
+        "fontStyle": ""
       }
     },
     {
-      "name": "Regex Character Class",
-      "scope": "constant.other.character-class.regexp, constant.character.escape.ts",
+      "name": "Regex > Operators",
+      "scope": [
+        "string.regexp keyword.operator",
+        "string.regexp punctuation.definition"
+      ],
       "settings": {
-        "foreground": "#a9b7c6"
+        "foreground": "#CC7832",
+        "fontStyle": ""
       }
     },
     {
-      "name": "Regex Or Operator",
-      "scope": "expr.regex.or.operator",
+      "name": "Regex > Group/Set",
+      "scope": [
+        "punctuation.definition.group.regexp",
+        "punctuation.definition.character-class.regexp"
+      ],
       "settings": {
-        "foreground": "#a9b7c6"
+        "foreground": "#FFC66D",
+        "fontStyle": ""
       }
     },
     {
