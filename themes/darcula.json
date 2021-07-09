@@ -86,6 +86,7 @@
         "string.quoted.double punctuation.section.array.end.bracket.round.php",
         "string.unquoted.heredoc punctuation.section.array.begin.php",
         "string.unquoted.heredoc punctuation.section.array.end.php",
+        "string.quoted.template.js entity.name.type.instance.js",
         "string.quoted.template.js variable.other.object.js",
         "string.quoted.template.js punctuation.quasi.element.begin.js",
         "string.quoted.template.js punctuation.quasi.element.end.js",
