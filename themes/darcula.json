@@ -134,7 +134,8 @@
         "keyword.operator.static",
         "keyword.operator.this",
         "keyword.operator.type",
-        "keyword.operator.expression"
+        "keyword.operator.expression",
+        "keyword.operator.typeof.js"
       ],
       "settings": {
         "foreground": "#CC7832"
